@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.app-box {
+  border: 1px solid #787878;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 3px 3px 5px 2px #5e5e5e;
+}
+
+.price-tag {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.purchase-button {
+  background-color: #008CBA;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px 2px #888888;
+  padding: 20px;
+}
+
+.purchase-button:hover {
+  background-color: #0c80a6;
+}
+
+.header {
+
+  border: 1px solid #787878;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px 2px #5e5e5e;
+  padding: 20px;
+}
+
+.view-source-button {
+  background-color: #10a221;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.view-source-button:hover {
+  background-color: #0f8a28;
+}
